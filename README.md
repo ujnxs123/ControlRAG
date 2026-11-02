@@ -195,6 +195,18 @@ set COMMANDLINE_ARGS=--api --port 7860
 
 项目会读取模型、采样器和配置接口，并调用 `/sdapi/v1/txt2img` 生成图像。SD 服务就绪后，启动教学界面即可使用，不需要把 SD 程序放入本仓库。
 
+### SD 模型来源
+
+SD 模型权重保持外置，不上传到本仓库。可根据需要从以下来源获取模型，并按来源页面的说明选择版本：
+
+| 模型 | 来源 | 放置位置（相对于 SD WebUI 目录） |
+| --- | --- | --- |
+| Anything V5 PrtRE | [同名权重的社区托管页面](https://huggingface.co/luoweiss/anythingv5/blob/main/anything-v5-PrtRE.safetensors) | `models/Stable-diffusion/` |
+| Realistic Vision | [作者 SG161222 的模型页面](https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE)及其提供的 [CivitAI 系列页面](https://civitai.com/models/4201/realistic-vision-v60-b1) | `models/Stable-diffusion/` |
+| SD VAE ft-MSE | [Stability AI 官方模型页面](https://huggingface.co/stabilityai/sd-vae-ft-mse-original) | `models/VAE/` |
+
+Anything V5 链接是社区托管来源。Realistic Vision 的作者页面提供 noVAE 版本，与本地使用过的 `realisticVisionV60B1_v51HyperVAE.safetensors` 变体不同；若需要该变体，请在系列页面核对版本说明。项目通过 SD API 调用当前已加载的模型，不依赖固定权重文件名。
+
 ## 启动自控教学助手
 
 保持 LightRAG 后端与 SD WebUI 运行，打开另一个 PowerShell 终端，从仓库的上一级目录执行：
@@ -265,4 +277,4 @@ bun run build --emptyOutDir
 
 - 本项目基于 [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)，保留其代码及许可证；上游 MIT 许可见 [`LICENSE`](./LICENSE)。
 - 图像生成依赖外部 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)，遵循其自身许可证与模型使用条款。本仓库仅提供 API 接入代码和配置说明。
-- GitHub 发布内容包含项目源码、配置模板，以及已构建的课程知识库和索引。真实 `.env`、密钥、SD 程序整合包、压缩包、虚拟环境和运行日志不提交。外部模型的发布方式以仓库中的实际模型说明为准。
+- GitHub 发布内容包含项目源码、配置模板，以及已构建的课程知识库和索引。真实 `.env`、密钥、SD 程序整合包、所有模型权重、压缩包、虚拟环境和运行日志不提交。SD 模型通过上方来源链接自行获取。
