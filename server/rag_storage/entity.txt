@@ -1,0 +1,3631 @@
+Modern Control Engineering
+Katsuhiko Ogata
+Prentice Hall
+Marcia J. Horton
+Dolores Mars
+Andrew Gilfillan
+Alice Dworkin
+William Opaluch
+Margaret Waples
+Tim Galligan
+Mack Patterson
+Scott Disanno
+Greg Dulles
+Alan Fischer
+Lisa McDowell
+Kenny Beck
+Carole Anson
+Daniel Sandin
+MATLAB
+The Mathworks, Inc.
+Upper Saddle River, New Jersey
+PID Controllers
+Control Systems
+State Space
+Mechanical Systems
+Electrical Systems
+Fluid Systems
+Thermal Systems
+Routh's Stability Criterion
+Hurwitz Stability Criterion
+Root-Locus Analysis
+Frequency-Response Analysis
+Nyquist Stability Criterion
+Bode Diagram
+Pole Placement
+State Observers
+Quadratic Optimal Control
+Robust Control Systems
+Ziegler–Nichols Rules
+Computational Optimization Approach
+Two-Degrees-of-Freedom Control
+Zero-Placement Approach
+Servo Systems
+Regulator Systems
+Mark Campbell
+Cornell University
+Henry Sodano
+Arizona State University
+Atul G. Kelkar
+Iowa State University
+Introduction to Control Systems
+James Watt
+Minorsky
+Hazen
+Nyquist
+Bode
+Ziegler and Nichols
+Evans
+Classical Control Theory
+Modern Control Theory
+Robust Control Theory
+Automatic Control
+Controlled Variable
+Control Signal or Manipulated Variable
+Plant
+Process
+System
+Disturbance
+Feedback Control
+Speed Control System
+Temperature Control System
+Fuel System
+Fuel Tank
+Fuel Filter
+Fuel Pump
+Electric Furnace System
+Business System
+Engineering Organizational System
+Fuel Injector Nozzle
+Air Intake Manifold
+Engine Block
+A/D Converter
+Interface
+Amplifier
+Controller
+Relay
+Robust Control System
+Research and Development
+Product Design and Testing
+Management
+Preliminary Design
+Experiments
+Product Design and Drafting
+Fabrication and Assembly
+Testing
+Mathematical Model
+Actual Plant
+Uncertainty or Error
+Controller K(s)
+Feedback Control System
+Closed-Loop Control System
+Open-Loop Control System
+Human Body
+Room Temperature Control System
+Thermostat
+Traffic Control System
+Closed-loop Control System
+Open-loop Control System
+Compensation
+Compensator
+Transient Response
+Steady-state Error
+Performance Specifications
+Design Procedures
+W. R. Evans
+Nyquist, Bode, Nichols, Hazen
+Kalman
+Root-Locus Method
+Frequency-Response Method
+State-Space Method
+Quadratic Optimal Regulator Problem
+Mathematical Modeling
+Steady-State Response
+Newton's Laws
+Kirchhoff's Laws
+State-Space Representation
+Transfer-Function Representation
+Linear Lumped-Parameter Model
+Linear Time-Invariant Systems
+Linear Time-Varying Systems
+Spacecraft Control System
+Mathematical Models
+Differential Equations
+Causality Principle
+Optimal Control Problems
+Transient-Response Analysis
+Linear Systems
+Transfer Function
+Impulse-Response Function
+Laplace Transform
+Convolution Integral
+Linear Time-Invariant System
+Differential Equation
+Algebraic Equation
+Automatic Control Systems
+Block Diagram
+Signal
+Equation (2–2)
+G(s)
+Pulse Input
+Control Engineering
+Physical Systems
+Electronic Circuit Symbol
+Summing Point
+Block G(s)
+Block C(s)
+Block Diagram of a Closed-Loop System
+Feedback Element
+Input Signal (R(s))
+Controller (E(s))
+Process (G(s))
+Sensor (H(s))
+Input Terminal 1 (a)
+Central Component
+Input Terminal 2 (b)
+Branch Point
+Closed-Loop System
+Sensor
+Open-Loop Transfer Function
+Feedforward Transfer Function
+Closed-Loop Transfer Function
+Cascaded Transfer Function
+Parallel Transfer Function
+MATLAB Program 2_1
+Block Diagram 1
+Block Diagram 2
+Block Diagram 3
+Automatic Controller
+Plant/Process
+Error Detector
+G1(s)
+G2(s)
+R(s)
+C(s)
+Block Diagrams
+Signal Flow
+Closed-loop System
+Actuator
+Two-Position Controller
+Proportional Controller
+Integral Controller
+Proportional-Plus-Integral Controller
+Proportional-Plus-Derivative Controller
+Proportional-Plus-Integral-Plus-Derivative Controller
+Pneumatic Controller
+Hydraulic Controller
+Electronic Controller
+Reference Input
+Actuating Error Signal
+Feedback Path
+Differential Gap
+Adder (Summing Junction)
+Transfer Function (G(s))
+Electromagnetic Valve
+Liquid-Level Control System
+Error Signal (e)
+Controlled Variable (y)
+Input Signal (u)
+Exponential Curves
+Movable Iron Core
+Magnetic Coil
+Signal Flow Diagram
+Disturbance D(s)
+H(s)
+C_D(s)
+C_R(s)
+Unity Feedback
+R C Circuit
+Summing Operation
+Feedback Loop
+Circuit Diagrams
+Equation (2–6)
+Equation (2–7)
+Conventional Control Theory
+State
+State Space Analysis
+Flowchart 1
+Flowchart 2
+Flowchart 3
+Flowchart 4
+Flowchart 5
+State Variables
+Modeling in State Space
+Complex Systems
+State Vector
+State-Space Equations
+Integrators
+Dynamic System
+Input Variables
+Output Variables
+Complex System
+Block A
+Block B
+Block C
+Block D
+Block X
+State Equation
+Output Equation
+Time-Varying System
+Linearized State Equation
+Linearized Output Equation
+State Matrix
+Input Matrix
+Output Matrix
+Direct Transmission Matrix
+Linear System
+Time-Invariant System
+Spring-Mass System
+Mechanical System
+Equation (2-14)
+Equation (2-15)
+Figure 2-14
+Figure 2-15
+Signal Processing
+Control System
+Damping Device
+Blocks A, B, C, D, X, Y
+Mathematical Operators
+Vector Functions
+External Force
+Displacement
+Mass (m)
+Spring (k)
+Equilibrium Position
+Elastic Potential Energy
+Fixed Support
+Integrator
+Input Signal
+Integration Component
+Scaling and Feedback
+Final Processing
+Input
+Output
+Characteristic Polynomial
+Eigenvalues
+State Vector (\mathbf{X})
+Input (u)
+Output (y)
+Matrices (\mathbf{A}, \mathbf{B}, \mathbf{C}, D)
+Appendix C
+Transfer Matrix
+Scalar Differential Equation Systems
+Equation (2–16)
+Equation (2–29)
+Differential Equation System
+Forcing Function
+Transfer Function System
+Canonical Form
+Equation (2–30)
+Equation (2–33)
+Equation (2–37)
+Equation (2–38)
+Chapter 9
+Section 2–6
+Singular Value Decomposition (SVD)
+Matrix A
+Matrices U, S, V
+Num and Den
+MATLAB Program 2-3
+Nonlinear Systems
+Taylor Series Expansion
+Linearization
+Equilibrium Point
+Taylor Series
+Nonlinear System
+Linear Approximation
+Operating Point
+Partial Derivatives
+Error Calculation
+Equation 2–43
+Equation 2–44
+Equation 2–45
+Equation 2–46
+Example 2–5
+Region $5\leq x\leq7,10\leq y\leq12$
+Linearized Equation
+Figure 2–17
+Figure 2–18
+Components: R(s), H1, G, H2, C(s)
+Exact Value of $z$
+Top Diagram (a)
+Middle Diagram (b)
+Bottom Diagram (c)
+Block Diagram of Figure 2–19
+Block Diagram of Figure 2–20
+Transfer Function $C(s)/R(s)$
+Signal $X(s)$
+Block Diagram of Figure 2–21
+Diagram (a)
+Diagram (b)
+Diagram (c)
+Component R(s)
+Component C(s)
+Component G1
+Component G2
+Component G3
+Component G4
+Component H1
+Component H2
+Component H3
+CO2 Conversion Process
+Water Splitting
+Electrolysis
+Oxygen Molecule Formation
+G1-G4
+H1-H3
+Gf
+Gc
+H
+E(s)
+U(s)
+D(s)
+Mathematical Modeling of Control Systems
+Equation (2–47)
+Equation (2–48)
+Equation (2–49)
+Equation (2–50)
+Equation (2–51)
+Block 1: R1
+Block 2: G1
+Block 3: G2
+Block 4: C1
+Block 5: R2
+Equation (2–52)
+Equation (2–53)
+Equation (2–54)
+Equation (2–55)
+Diagrams
+Circuit Configuration 1
+Circuit Configuration 2
+Circuit Configuration 3
+Circuit Configuration 4
+Equation (2–56)
+Equation (2–57)
+Resistor
+Capacitor
+Diode
+Equation (2–58)
+Vector-Matrix Equation
+State-Space Equation
+State-space Representation
+Delayed Integrator
+MATLAB Program 2-4
+Numerator (num)
+Denominator (den)
+Matrix B
+Matrix C
+Matrix D
+Figure 2–26
+Mathematical Equations
+State-Space Model
+Figure 2–27
+Laplace Domain
+Figure 2–28
+Transfer Functions
+First-order Delayed Integrators
+Transfer Function G(s)
+System with Multiple Inputs and Outputs
+Program 2-5
+Numerator Coefficients
+Matrix NUM
+Input U1
+Input U2
+Output Y1
+Output Y2
+MATLAB Program
+Solution
+G1
+G2
+H1
+Industrial Automatic Controllers
+Proportional-Integral Controller
+Proportional-Derivative Controller
+Proportional-Integral-Derivative Controller
+Error Signal
+G3 Gain Block
+H2
+u
++ s + z
+y
+Input Block (u)
+Summation Block (+ s + z)
+Output Block (y)
+Newton's Second Law
+Springs in Parallel
+Springs in Series
+Equivalent Spring Constant
+External Force F
+State-Space Models
+Dashpot
+Equivalent Spring Constant (k_eq)
+Equivalent Viscous-Friction Coefficient (b_eq)
+Force (F)
+Spring Constant (k1, k2)
+Viscous-Friction Coefficient (b1, b2)
+Displacement (x, y, z)
+Spring-Mass-Dashpot System
+Massless Cart
+Spring
+Damper
+External Force (u)
+Displacement (y)
+Acceleration (a)
+Friction Force
+Spring Force
+Horizontal Surface
+Damper Force
+External Force 'u'
+Equation (3–35)
+Equation (2–34)
+Equation (2–36)
+Equation (3–3)
+Equation (3–4)
+Springs and Masses System
+Mass m1
+Mass m2
+Springs
+External Force u
+Equation of Motion
+Inverted Pendulum System
+Motor-driven Cart
+Space Booster
+Free-body Diagram
+Mass on a Spring
+Block on an Inclined Plane
+Pendulum Rod
+Attitude Control
+Equations of Motion
+Center of Gravity
+Inverted-Pendulum System
+Pendulum Bob
+String/Wire
+Fixed Point
+Angle of Deflection
+Tension
+Weight (mg)
+Centripetal Force
+Inverted-Pendulum Plant
+Electrical Circuit
+LRC Circuit
+Theta
+X
+Kirchhoff's Current Law
+Kirchhoff's Voltage Law
+Inductance
+Resistance
+Capacitance
+Operational Amplifier Systems
+Inductor (L)
+Capacitor (C)
+Voltage Source
+LC Circuit
+Resistor (R1)
+Resistor (R2)
+Capacitor (C1)
+Capacitor (C2)
+Input Voltage (e_i)
+Output Voltage (e_o)
+Current (i1)
+Current (i2)
+Kirchhoffs Voltage Law
+Equation (3–24)
+Equation (3–25)
+Figure 3–7
+Equation (3–26)
+Equation for State-Space Model
+Transfer Functions of Cascaded Elements
+Figure 3–8
+R_1
+R_2
+C_1
+C_2
+e_i
+e_o
+i_1
+i_2
+Laplace Transforms
+Complex Impedance
+Series Connection
+Parallel Connection
+Circuit (a)
+Circuit (b)
+Signal Flow Graphs
+Nonloading Cascaded Elements
+Equation (3–33)
+Resistors
+Capacitors
+Diodes
+Transistors
+Impedance Elements
+System Components
+Signal Flow Arrows
+Isolating Amplifier
+Operational Amplifier (Op-Amp)
+Resistors (R1 and R2)
+Capacitors (C1 and C2)
+Signal Isolation
+Electrical System
+Operational Amplifier
+Differential Amplifier
+Inverting Amplifier
+Voltage Signal
+Negative Feedback
+Ideal Op-Amp
+Noninverting Amplifier
+First-Order Lag Circuit
+R1
+R2
+C1
+High-Pass Filter
+Impedance (Z1 and Z2)
+Ei(s)
+Vo(s)
+Eo(s)
+Figure 3–16
+Table 3–1
+Example 3–9
+Operational Amplifier Circuit
+Lead or Lag Network
+Sign Inverter
+Resistor R1
+Resistor R2
+Capacitor C1
+Capacitor C2
+Resistor R3
+Resistor R4
+PID Controller
+Operational Amplifiers
+Proportional Gain
+Integral Time
+Derivative Time
+Operational-Amplifier Circuits
+Non-Inverting Configuration
+Inverting Configuration
+Summing Amplifier
+Differentiator
+Sample-and-Hold Circuit
+Automobile Suspension System
+Proportional Gain (Kp)
+Integral Time (Ti)
+Derivative Time (Td)
+Integral Gain (Ki)
+Derivative Gain (Kd)
+Control Action
+Mathematical Equation
+Figure 3-20(a)
+Figure 3-20(b)
+Car
+Shocks
+Dampers
+Figure 3-20
+Figure 3-21
+Masses
+Dashpots
+External Forces
+Equilibrium
+Oscillation
+Suspension System
+Figure 3–21
+Spring Constant k1
+Spring Constant k2
+Figure 3–22
+External Force F1
+External Force F2
+Top-left Circuit
+Top-right Circuit
+Bottom-left Circuit
+Bottom-right Circuit
+Series-Parallel Networks
+Bridged T Networks
+Circuit Components
+Complex Impedances
+Figure 3-25
+Chapter 3
+Figure 3–25(a)
+Figure 3–24(a)
+Figure 3–24(b)
+Integrator Circuit
+Capacitor C
+Op-Amp
+Figure 3–26
+Figure 3–27
+Complex Impedances Z1, Z2, Z3, Z4
+Voltage Divider
+Point A
+Point B
+Problem A–3–6
+Figure 3–28
+Node A
+Node B
+Electric Circuit
+Ground Symbol
+Nodes
+Servo System
+Servomotor
+Potentiometers
+Torque
+Back EMF
+Control Theory
+Error Voltage
+Gear Train
+Load
+Input Device
+Motor
+Error Measuring Device
+Armature
+Torque Equilibrium
+Figure 3–29
+Figure 3–30
+Figure 3–31
+Figure 3–32
+Mass m
+Spring k1
+Spring k2
+Viscous Friction Coefficient
+Inertia J0
+Output Shaft
+Equation 3–51
+Equivalent Viscous-Friction Coefficient beq
+Circuit Diagram
+Block
+Frictionless Surface
+Force Applied to Block
+Pulley System
+Mass 1 (m1)
+Mass 2 (m2)
+Spring-Loaded Pendulum System
+Simple Harmonic Oscillator
+Inputs (u1, u2)
+Outputs (y1, y2)
+Figure 3–35
+Displacement (x)
+Mass
+Restoring Force
+Spring-loaded Pendulum System
+Inductor L
+Op-Amp Circuit
+Impedance Approach
+DC Servomotor System
+Mathematical Modeling of Fluid Systems and Thermal Systems
+Pneumatic Systems
+Hydraulic Servo Systems
+Liquid-Level Systems
+Hydraulic Controllers
+Pneumatic Controllers
+Laminar Flow
+Turbulent Flow
+Reynolds Number
+Flow Regimes
+Figure 4–1(a)
+Figure 4–1(b)
+Point P
+Tank
+Resistance R_t
+Capacitance C
+Turbulent-flow Resistance R_t
+Flow Rate Q
+Head H
+Coefficient K
+Slope of Curve at Point P
+Steady-state Flow Rate \(\bar{Q}\)
+Small Deviation of Inflow Rate \(q_i\)
+Small Deviation of Outflow Rate \(q_o\)
+Steady-state Head \(\bar{H}\)
+Small Deviation of Head \(h\)
+Time Constant \(RC\)
+Tank 1
+Tank 2
+Diagram of Two Tanks
+Control Systems Diagram
+Figure 4–2
+Pipes
+Valves
+Pumps
+Steady-State Flow Rate
+Steady-State Liquid Level of Tank 1
+Steady-State Liquid Level of Tank 2
+Hydraulic Systems
+Equation (4–7)
+Figure 4–3
+Proportional Controllers
+Pressure Systems
+Pressure System
+Ideal Gas Law
+Polytropic Process
+Gas Pressure
+Volume of Vessel
+Density
+Universal Gas Constant
+Specific Volume
+Molecular Weight
+Specific Heat at Constant Pressure
+Specific Heat at Constant Volume
+Pneumatic Nozzle–Flapper Amplifier
+Flapper
+Nozzle
+Orifice
+Air Supply
+Input Valve
+Control Valve
+Resistance R
+Pressure Change dp
+Nozzle Back Pressure Pb
+Supply Pressure Ps
+Ambient Pressure Pa
+Pneumatic Relay
+Bleed-Type Relay
+Nonbleed-Type Relay
+Pneumatic Valve System (a)
+Pneumatic Valve System (b)
+Pressure of Air Supplied (Pb)
+Pressure of Air Exiting (Pa)
+Force Exerted by Flapper (Fs)
+Schematic Diagram
+Pneumatic Valve System
+Pneumatic Valve
+Back Pressure
+Reverse-Acting Relay
+Pneumatic Proportional Controllers
+Atmosphere
+Force-Distance Type
+Force-Balance Type
+Pneumatic Amplifier
+Feedback Bellows
+Diaphragm Valve
+Pneumatic Relay Valve
+Control Pressure
+Nozzle Back Pressure
+Equilibrium State
+Bellows
+Force-Balance Type Controller
+Pressure Control System
+Figure 4–8
+Figure 4–9
+Figure 4–10
+Reference Input Pressure
+Output Pressure
+Chamber
+Orifices
+Pneumatic Actuating Valve
+Diaphragm
+Pneumatic Controls
+Valve Displacement
+Valve Positioner
+Derivative Control Action
+Control System Block Diagram
+Pneumatic Proportional Controller
+Transfer Function H(s)
+Reference Input R(s)
+Closed-Loop Response C(s)
+Pneumatic Proportional-Plus-Derivative Controller
+Nozzle-Flapper System
+Flowchart Diagram
+Graphs with Patterns
+Restriction R
+Control Pressure (Pc)
+Actuating Error (e)
+Nozzle-Flapper Distance (x)
+Pneumatic Proportional-Plus-Integral Controller
+Bellows I
+Bellows II
+Technical Diagram
+Integral Control Action
+Pneumatic Proportional-Plus-Integral-Plus-Derivative Controller
+Pc
+Ri
+Hydraulic Actuators
+Hydraulic Servo System
+Hydraulic Fluid
+Pilot Valve
+Dither Signal
+Valve Orifice Area
+Power Cylinder
+Flow Rates
+Linearization Technique
+Valve
+Piston
+Return Pressure
+Ports
+Fluid
+Power Piston
+Pressure Difference (Δp)
+Flow Rate (q)
+Valve Coefficients (a and b)
+Spool Valve
+Hydraulic Servomotor
+Characteristic Curves
+Load Mass
+Viscous Friction
+Linearized Mathematical Model
+Piston Area (A)
+Pressure Difference (ΔP)
+Oil Density (ρ)
+Hydraulic Integral Controller
+Oil
+Zero-Lapped Valve
+Equation (4–28)
+Equation (4–29)
+Equation (4–30)
+Equation (4–31)
+Figure 4–19
+Figure 4–17
+Figure 4–20
+Component A
+Component B
+Component C
+Tubes
+Cylinders
+Pistons
+Oil Under Pressure System
+Feedback Link ABC
+Figure 4-20(a)
+Figure 4-21(a)
+Processing Section
+Output Section
+X(s)
+(a/a+b)
+Y(s)
+Flow Rate
+Figure 4-21(b)
+Hydraulic Proportional-Plus-Integral Controller
+Hydraulic Proportional-Plus-Derivative Controller
+Equations
+Hooke's Law
+Pressure Source
+Proportional-Plus-Integral Controller (PI Controller)
+Hydraulic Proportional-Plus-Derivative Controller (PD Controller)
+Hydraulic Proportional-Plus-Integral-Plus-Derivative Controller (PID Controller)
+Mechanical System Components
+Electrical Circuit Components
+Figure 4-22(a)
+Figure 4-23(a)
+Figure 4-23(b)
+Figure 4-24
+Levers
+Pulleys
+Hydraulic Proportional-Plus-Integral-Plus-Derivative Controller
+Conduction
+Convection
+Force
+Motion
+Input Section
+Central Processing Section
+Heat Exchanger
+Cold Liquid Input
+Heater
+Mixer
+Hot Liquid Output
+Radiation
+Thermal Resistance
+Thermal Capacitance
+Heat Flow Rate (q)
+Temperature Difference (Δθ)
+Coefficient (K)
+Thermal Conductivity (k)
+Area (A)
+Thickness of Conductor (ΔX)
+Convection Coefficient (H)
+Specific Heat (c)
+Steady-State Temperature of Inflowing Liquid (θi)
+Steady-State Temperature of Outflowing Liquid (θo)
+Steady-State Liquid Flow Rate (α)
+Mass of Liquid in Tank (M)
+Steady-State Heat Input Rate (H)
+Temperature Sensor
+Thermal System
+Liquid-Level System
+Figure 4–26(b)
+Liquid-level System
+Figure 4–27
+Valve Q
+Figure 4–28
+Steady-state Inflow Rates
+Steady-state Heads
+Fluid Flow System
+Tank C1
+Tank C2
+Pipe R1
+Pipe R2
+Fluid Mechanics
+Q1
+Q2
+Valves/Regulators
+Bellows 1
+Bellows 2
+Valve 1
+Valve 2
+Pneumatic Pressure System
+Symbols and Labels
+Hydraulic System
+Graph
+Pressure Difference vs Mass Flow Rate Curves
+Resistance R_d
+Resistance R_i
+Gear Box
+Flowchart for Maximum Likelihood Estimator
+Force-Balance Equation
+Maximum Likelihood Estimator (MLE)
+Linear Regression
+Logistic Regression
+Decision Trees
+Random Forests
+Support Vector Machines (SVMs)
+K-Nearest Neighbors (KNN)
+Naive Bayes
+Gradient Boosting Machines
+Neural Networks
+Maximum Likelihood Estimation (MLE)
+Method of Moments
+Least Squares
+Generalized Linear Models
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+Coefficient of Determination (R-squared)
+Cross-Validation
+Confusion Matrix
+Area Under the Curve (AUC)
+Lift Chart
+K-Fold Cross-Validation
+Holdout Method
+Walk-Forward Optimization
+Rolling Window
+Orifice Meter
+Hydraulic Jet-Pipe Controller
+Jet Nozzle
+Pump
+Cylinder
+Overlapped Valve
+Underlapped Valve
+Figure 4–33
+Figure 4–34
+Figure 4–35
+Effective Area
+Low-Pressure Area
+Fly-Ball Governor
+a2/a1 + a2
+K/s
+a1/a1 + a2
+bs / bs + k
+Z(s)
+Proportional-Plus-Integral Control
+Pressure Differential
+Viscous-Friction Coefficient
+Inlet
+Outlet
+Hot Fluid
+Cold Fluid
+Air Heating System
+Inlet Air Temperature
+Outlet Air Temperature
+Mass Flow Rate
+Specific Heat of Air
+Steady-State Heat Input
+Mercury Thermometer System
+Thermometer
+Bath
+Temperature Gradient
+Electrical Analog
+Figure 4–38
+Figure 4–39
+Figure 4–40
+Figure 4–41
+Resistor (R)
+Thermal Resistance (R)
+Equation (4–49)
+Conical Water-Tank System
+Pneumatic System
+Thermometer System
+Bath Temperature
+Thermometer Temperature
+Head (H)
+Flow Rate (Q)
+Proportional Control System
+Air Pressure (\(\bar{P}\))
+Bellows Displacement (\(\bar{X}\))
+Portion Controller
+Liquid-level Control System
+Gearbox
+Flapper Valve
+Electro-Pneumatic Proportional Valve
+Industrial Applications
+Arrowhead
+Inlet Port (P_s)
+Outlet Port (P_b)
+Valve Spool (k)
+Control Pressure (P_c)
+Valve Control Signal
+Process Control
+Automotive Industry
+Sensors
+Actuators
+Aircraft Elevator Control System
+Control Lever
+Elevator Angle
+Large Gear
+Smaller Gear
+Connecting Rod
+Inlet Valve
+Water Tank
+Figure 4–52 Liquid-level control system
+Figure 4–53 Controller
+Thermocouple
+Thermal Well
+Test Signals
+Air Compressor System
+Thermocouple-Thermal Well System
+Test Input Signals
+Absolute Stability
+Relative Stability
+Steady-State Error
+First-Order System
+Second-Order System
+Higher-Order System
+Unit-Step Function
+Unit-Ramp Function
+Unit-Impulse Function
+Block Diagram (a)
+Block Diagram (b)
+Exponential Response Curve
+Equation (5–2)
+Equation (5–3)
+Input Block (R(s))
+Summing Junction
+Transfer Function Block (1/Ts)
+Transfer Function Block (1/Ts + 1)
+Output Block (C(s))
+Time Constant (T)
+Time Constant T
+Unit-Ramp Response
+Unit-Impulse Response
+Impulse Response
+Low-Pass Filter
+Inertia
+Damping Ratio (ζ)
+Undamped Natural Frequency (ω_n)
+Attenuation (σ)
+Critically Damped System
+Underdamped System
+Overdamped System
+Damped Natural Frequency
+Damping Ratio
+Transient Oscillation
+Natural Frequency
+Critically Damped
+Overdamped
+c(t)
+Figure 5-7
+Greek Letters (ζ)
+Unit-Step Response Curves
+Transient-Response Specifications
+C(s)/R(s)
+Unit-Step Response
+Time Response c(t)
+Figure 5-6
+Figure 5-8
+Delay Time (t_d)
+Rise Time (t_r)
+Peak Time (t_p)
+Maximum Overshoot (M_p)
+Settling Time (t_s)
+Second-Order Systems
+Time-Domain Specifications
+Natural Frequency (ω_n)
+Underdamped Systems
+Overdamped Systems
+Equation (5–10)
+Rise Time
+Peak Time
+Maximum Overshoot
+Settling Time
+Zeta (ζ)
+Natural Frequency (ωₙ)
+Damped Frequency (ωₐ)
+Sigma (σ)
+Figure 5–9
+Exponential Decay Function
+Envelope Curves
+Unit-Step Input
+Undamped Natural Frequency (ωₙ)
+Tolerance Band
+Maximum Overshoot (Mₚ)
+Settling Time (tₛ)
+Graph of Settling Time vs. Tolerance Band
+Figure 5-11
+Figure 5-12
+Top Section
+Bottom Section
+Servo System with Velocity Feedback
+Tachometer
+Equation (5-10)
+Equation (5-12)
+Velocity Feedback
+Damping Ratio (\(\zeta\))
+Undamped Natural Frequency (\(\omega_n\))
+Equation (5–24)
+Gain (K)
+Velocity-Feedback Constant (K_h)
+Equation (5–21)
+Equation (5–20)
+Equation (5–25)
+Equation (5–19)
+Figure 5–14
+Equation (5–26)
+Equation (5–27)
+Equation (5–28)
+Natural Frequency (ωn)
+Unit-Impulse Response Curve
+Unit-Step Function Curve
+Graph of Curves
+Equation 5-29
+Oscillatory Phenomena
+Frequency Response
+Equation 5-27
+Equation 5-28
+Transient Response Analysis
+Steady-State Response Analysis
+Higher-Order Systems
+Closed-Loop Poles
+Closed-Loop Zeros
+Partial-Fraction Expansion
+Controller (G(s))
+Plant (H(s))
+Output Signal (C(s))
+Complex-Conjugate Poles
+Steady-State Output
+Complex Plane
+Exponential Transient-Response Terms
+Damped Sinusoidal Transient-Response Terms
+Stability Analysis
+Dominant Closed-Loop Poles
+Step Response
+Ramp Response
+Numerator and Denominator Arrays
+Plot Command
+State Matrix A
+Control Matrix B
+Output Matrix C
+Direct Transmission Matrix D
+Example 5–3
+Unit-step Response Curves
+State-space Equations
+Transfer Matrix G(s)
+MATLAB Program 5–1
+Figure 5–18
+U1
+U2
+Y1
+Y2
+MATLAB Program 5–2
+Figure 5–19
+Waveform Patterns
+Amplitude Variations
+Transient and Steady-State Response Analyses
+MATLAB Program 5-3
+MATLAB Program 5-4
+Unit-Step Response Plot
+MATLAB Program 5-5
+MATLAB Program 5-6
+Unit-Step Response Curve
+G(s) = 25/(s^2+4s+25)
+Mesh Command
+Surf Command
+Three-Dimensional Plot
+Figure 5-20
+Figure 5-21
+Figure 5-22
+Undamped Natural Frequency
+MATLAB Program 5–6
+Overshoot
+MATLAB Program 5–7
+Figure 5–23
+Impulse Command
+Time Vector
+Equation (5–42)
+Equation (5–43)
+MATLAB Program 5–8
+Figure 5–24
+Example 5-5
+MATLAB Program 5-9
+MATLAB Program 5-10
+Figure 5–25
+Figure 5–26
+Unit-Ramp Response Curve
+System G(s) = (2s+1)/(s^2+s+1)
+Grid
+Title
+Y-axis Label
+X-axis Label
+Equation
+Integral of Unit-Step Response
+MATLAB Program 5–11
+Figure 5–27
+Unknown System
+MATLAB Program 5-12
+Figure 5-28
+lsim Command
+MATLAB Program 5-13
+Unit-Step Response Graph
+Exponential Input/Output Relationship Graph
+System Dynamics
+Exponential Input
+Response Curves
+Figures 5–29
+System Parameters
+State-Space Form
+Initial Condition
+Spring Constant (k)
+Mechanical System (Figure 5–30)
+Angular Frequency (ω)
+Amplitude (A)
+Control Systems Toolbox
+Figure 5–31
+Inverse Laplace Transform
+State-Space Approach
+MATLAB Program 5–14
+ResponseToInitialCondition
+SystemResponse
+Amplitude
+Time (sec)
+Response to Initial Condition
+System Response
+MATLAB Program 5-15
+State Variables x1 and x2
+Graph of State Variables
+Vector B
+MATLAB Program 5-16
+Example 5-10
+Figure 5-33
+MATLAB Program 5-17
+Linear Control Systems
+Closed-loop Transfer Functions
+Characteristic Equation
+Polynomial
+Coefficients
+Imaginary Roots
+Real Roots
+Positive Coefficients
+Example 5–11
+Example 5–12
+Special Cases
+Equation (5–61)
+Equation (5–62)
+Third-Order Polynomial
+Fourth-Order Polynomial
+Auxiliary Polynomial
+Polynomial Equation
+Roots
+Relative Stability Analysis
+Control System Analysis
+Rouths Stability Criterion
+Control-System Analysis
+Figure 5–35
+K
+Proportional Control
+Waveform (a)
+Waveform (b)
+Integral Control
+Offset
+Integral Control System
+Torque Disturbance
+Moment of Inertia
+Summer Block
+Controller Block
+Plant Block
+Error Detector Block
+Laplace Transform Variable
+Chapter 5
+Gain Kp
+Integral Time Constant Ti
+Derivative Controller
+Waveform Graph
+Laplace Variable
+Derivative Control
+Proportional-Plus-Derivative Control
+Inertia Load
+System Performance
+Unity-Feedback Control System
+Damping Coefficient
+Loop Transfer Function
+Input Signal R(s)
+Kp + KdS
+Effective Damping Coefficient
+System Classification
+Type 0, Type 1, Type 2 Systems
+Static Position Error Constant (Kp)
+Signal Flow Graph
+Type 0 System
+Type 1 System
+Type 2 System
+Static Velocity Error Constant (Kv)
+Ramp Input
+Unity-Feedback System
+Function r(t)
+Function c(t)
+Type 3 or Higher System
+Static Acceleration Error Constant K_a
+Unit-Ramp Input
+Unit-Parabolic Input
+Type 0 system
+Type 1 system
+Type 2 system
+Type 3 or higher system
+Unity-feedback system
+Steady-state error
+Error constants
+Table 5–1
+Figure 5–48
+Figure 5–49
+Gear-Train System
+Wall
+Gear
+Motor Shaft
+Load Shaft
+Differentiating System
+Shaft 1
+Shaft 2
+Shaft 3
+Shaft 4
+Gear 1
+Gear 2
+Gear 3
+Gear 4
+Input Torque
+Load Torque
+J1
+J2
+J3
+b1
+b2
+b3
+N1/N2
+N3/N4
+T1, T2, T3, T4
+TL
+Tm
+Equivalent Moment of Inertia
+Control System Diagram
+Figure 5–52
+J
+T
+Gear Ratios
+Response Curve
+Dynamic Behavior
+Controller Gain K
+Transfer Function J(s)
+Plant Transfer Function G(s)
+Output Signal C(s)
+Force-Time Graph
+Displacement-Time Graph
+Mechanical Vibratory System
+Logarithmic Decrement
+Kinetic Energy
+Potential Energy
+Spring-Mass-Damper System
+Figure 5–55
+MATLAB Program 5–18
+Figure 5–56
+Numerator Dynamics
+MATLAB Program 5-19
+MATLAB Program 5-20
+Zeta
+Omega_n
+MATLAB Program 5-21
+MATLAB Program 5-22
+MATLAB Program 5-23
+Response to Input r1 = e^(-0.5t)
+Closed-Loop System Response
+Graph 1: Unit-Ramp Input
+Graph 2: Response to Input r1 = e^(-0.5t)
+Figure 5-60
+Figure 5-61
+MATLAB's Control Systems Toolbox
+Response to Input r(t) = 2 + t
+Figure 5–62 Control System
+Figure 5–63
+Input Signal r(t)
+Output Signal c(t)
+MATLAB Program 5–24
+Unit-Acceleration Response Function
+MATLAB Program 5–25
+Unit-Acceleration Input
+Output Acceleration
+MATLAB Program 5-26
+Routh Array
+Equation 5-58
+Equation 5-60
+Figure 5-65
+Figure 5-34
+Polynomial Coefficients
+Determinants
+Routh Stability Criterion
+Hurwitz Determinants
+Principal Minors
+Delta Notation
+Asymptotic Stability
+Figure 5–66
+Figure 5–67
+Figure 5–68
+Electric Motor Control System
+Steady State
+Control Algorithm
+Time Delay
+Unit-Step Disturbance Torque
+Controller Transfer Function $G_{c}(s)$
+Steady-State Output Velocity
+Proportional Mode
+Steady-State Output Speed
+Input Block
+Gain Block
+Addition Block
+Output Block
+Transfer Function Block
+Block 1: 1/J(s)
+Block 2: Kp(s + K/I)
+Block 3: D(s)
+Proportional-Plus-Derivative Filter
+Unit Ramp Input
+Disturbance Torque
+Environmental Changes
+First-order System
+Unit-step Response
+Unity-feedback Control System
+Open-loop Transfer Function
+Impulse Force
+Mass-Spring System
+Waveform
+Damped Oscillation
+Damping Ratio ($\zeta$)
+Natural Frequency ($\omega_{n}$)
+Wave Amplitude
+Tachometer Feedback
+Advanced Controller
+Figure 5–75
+Figure 5–76
+Integrator Block
+Differentiator Block
+Feedforward Path
+Gain Element
+Output C(s)
+Positional Servo System
+PD Control Action
+Position Control System
+Block 1
+Block 2
+Block 3
+Block 4
+Block 5
+Block 6
+Block 7
+Satellite Attitude Control System
+Schwarz Matrix
+Routh's Array
+Adder
+Multiplier
+Rouths Array
+Gain
+Poles
+Zeros
+Root Locus
+Gain Parameter K
+Angle Condition
+Magnitude Condition
+Open-Loop Poles
+Open-Loop Zeros
+Figure 6–2
+Figure 6–3
+Negative Feedback System
+Gain K
+Open-loop Poles
+Open-loop Complex-conjugate Poles
+Complex-conjugate Zeros
+Real Axis
+Graphical Computation
+Damping Ratio ζ
+Asymptotes
+Negative Real Axis
+Figure 6–4
+Breakaway Point
+Equation (6–5)
+Equation (6–6)
+Equation (6–7)
+Equation (6–8)
+Equation (6–9)
+Breakaway Points
+Imaginary Axis
+Control Systems Analysis and Design by the Root-Locus Method
+Figure 6–5
+Figure 6–6
+Root Loci
+Closed-loop Poles
+Complex-conjugate Poles
+Sustained Oscillations
+Unstable System
+Example 6–2
+Figure 6–7
+K(s + 2)
+Figure 6–8
+Figure 6–9
+Complex Open-loop Poles
+Break-in Point
+Angle of Departure
+Complex Mathematical Diagram
+Figure 6–10
+Root Locus Plot
+Positive Feedback
+Input (R(s))
+Output (C(s))
+Break-in Points
+K (Gain)
+Complex Pole
+Complex Zero
+S-plane
+Figure 6–13
+Graph 1
+Graph 2
+Figure 6–14(a)
+Figure 6–14(b)
+Figure 6–14(c)
+Root-Locus Configuration
+Pole-Zero Configuration
+Control System (a)
+Control System (b)
+Control System (c)
+Open-Loop Poles and Zeros
+Graph Collection
+Top-Left Graph
+Top-Center Graph
+Top-Right Graph
+Middle-Left Graph
+Middle-Center Graph
+Middle-Right Graph
+Bottom-Left Graph
+Bottom-Center Graph
+Bottom-Right Graph
+Equation (6–11)
+Gain Vector K
+MATLAB Program 6-1
+Root-Locus Plot
+Complex-Conjugate Open-Loop Poles
+Matrix Multiplication Problem
+Denominator Polynomial
+Convolution Command
+Equation K(s + 3) / (s^2 + 4s + 16)
+G(s) = K(s + 3)/[s(s + 1)(s^2 + 4s + 16)]
+Example 6–4
+MATLAB Program 6–1
+MATLAB Program 6–2
+Chapter 6 / Control Systems Analysis and Design by the Root-Locus Method
+Open-Loop Transfer Function $G(s)H(s)$
+MATLAB Program 6-3
+Figure 6-18
+Figure 6-19
+Gain Values
+Grid Pattern
+Black Line Graph
+Circle Markers
+System Equations
+Equation (6–15)
+MATLAB Program 6-5
+Root-Locus Diagram
+Constant Zeta Lines
+Constant Omega_n Circles
+Damping Ratio (Zeta)
+Undamped Natural Frequency (Omega_n)
+Figure 6-21
+Figure 6-22
+MATLAB Code Snippet
+MATLAB Program 6-6
+Constant ζ Lines
+Constant ωn Circles
+Complex Number z = (0.34 + 0.16i)
+Parabolas on Complex Plane
+Sgrid Function
+Axis(v)
+Figure 6-23
+MATLAB Program 6-7
+Parabolas
+Imag Axis
+Intersection Point
+K(s^2 + 2s + 4) / (s(s+4)(s+6))
+Figure 6–25
+Conditionally Stable System
+Nonminimum-Phase System
+Pole Locations
+Zero
+Equation (6–16)
+Orthogonality of Root Loci
+G(s) H(s) Plane
+Constant-Gain Loci
+Figure 6–29
+Rlocfind Command
+Polar Coordinate System
+Circular Graph
+Rectangular Graph
+Magnitude
+Phase Angle
+Conjugate Symmetry
+Constant-Phase Loci
+S-Plane
+Figure 6–29(a)
+Figure 6–29(b)
+Rlocus Command
+Positive-Feedback System
+Signal Processing System
+Filter Block (G1(s))
+Adder Block (R(s))
+Delay Block (H(s))
+Output Block (G(s))
+Rule 5
+Breakaway and Break-in Points
+Coordinate System
+Negative-Feedback System
+Pole
+Table 6-2
+Figure 6-32
+Preliminary Design Consideration
+Series Compensation
+Parallel Compensation
+Gain Adjustment
+Filter
+Velocity-Feedback Control System
+Series Compensation Technique
+Parallel Compensation Technique
+Lead Network
+Lag Network
+Lag-Lead Network
+Addition of Poles
+Addition of Zeros
+Graphs
+Graph (a)
+Graph (b)
+Graph (c)
+Graph (d)
+Lead Compensation
+Electronic Circuit
+Control Systems Design
+Root-Locus Approach
+Lead Compensator
+Gc(s)
+Gs(s)
+Static Error Constants
+Control System Design
+Flowchart
+Figure 6-40
+Angle Deficiency
+Method 1
+Closed-Loop Pole
+Compensated System
+Geometric Diagram
+Complex Number Plane
+Addition Operation
+Multiplication Operation
+Point j1
+Static Velocity Error Constant Kv
+Origin
+Desired Closed-Loop Pole
+Compensator Pole
+Zero-Order Hold (ZOH) Pole
+Compensator Zero
+Lag-Lead Compensator
+Method 2
+MATLAB Program 6–9
+Compensated System (Method 1)
+Uncompensated System
+Compensated System (Method 2)
+Unit-Step Responses
+Unit-Ramp Responses
+MATLAB Program 6–10
+Numerators and Denominators
+Compensated System 1
+Compensated System 2
+MATLAB Program 6-10
+Lag Compensator
+Transient-Response Characteristics
+Static Velocity Error Constant
+Transfer Function Gc(s)
+Static Error Constant
+Pole-Zero Plot
+MATLAB Program 6–11
+Root-Locus Plots
+Denominator Coefficients
+Open-Loop Gain K
+MATLAB Program 6-12
+MATLAB Program 6–13
+Equation (6–20)
+Graph of Unit-Ramp Responses
+Graph of Unit-Step Responses
+Lag Compensation
+Lag-Lead Compensation
+Lag–Lead Compensator
+Phase-Lead Portion
+Chapter 6
+Kv
+Kc
+T1
+T2
+Beta
+Phi
+Gamma
+S1
+Example 6-9
+Figure 6-55
+Phase-Lead Compensator
+Phase-Lag Compensator
+Gamma (γ)
+Beta (β)
+Figure 6–56
+Example 6–8
+Example 6–9
+Equation (6–24)
+Complex Number Plot
+Graphical Representation
+Phase-Lead Network
+Phase-Lag Network
+Complex Number
+Time Constant T1
+Time Constant T2
+Velocity Feedback System
+Flowchart (a)
+Flowchart (b)
+Example 6–10
+Figure 6–61
+Transfer Function 20/(s + 1)(s + 4)
+k
+Equation (6–28)
+Summer
+Open-loop Zero
+Complex Plane Diagram
+Point Q
+Figure 6–62
+Open-Loop Zero
+MATLAB Program 6-14
+Transfer Function 1
+Transfer Function 2
+Figure 6-63
+Closed-loop Transfer Function with k=0.4490
+Closed-loop Transfer Function with k=1.4130
+MATLAB Code
+Figure 6–63
+Figure 6–64
+Damping Ratio $\zeta$
+Closed-loop Pole at $s=-2.9021$
+Closed-loop Poles at $s=-2.1589 \pm j4.9652$
+Closed-loop Pole at $s=-0.6823$
+Gain $k=0.4490$
+Gain $k=1.4130$
+Equation $R(s)$
+Equation $K(s+2)$
+Equation $(s+3)/(s+1)$
+Frequency Response Plot
+Figure 6–64(b)
+Figure 6–65(a)
+Figure 6–65(b)
+Section (a)
+Section (b)
+Complex Gain Values
+Double Pole at the Origin
+Angles of Asymptotes
+Intersection of Asymptotes
+Figure 6–66(a)
+Figure 6–66(b)
+A–6–4
+Figure 6–66
+Problem A–6–3
+Double Root
+Triple Root
+Figure 6–67(a)
+Figure 6–67(b)
+Third Order System
+Figure 6–68
+Root-Locus Branches
+Root-Locus
+Straight Lines
+Open-Loop Pole
+Centroid
+Breakaway/Break-in Points
+MATLAB Program 6-15
+MATLAB Program 6-16
+Figure 6-70
+MATLAB Program 6-17
+Gain Calculation
+Numerator Polynomial
+Feed-Forward Transfer Function
+MATLAB Program 6–18
+Complex Plane Graph
+Mechanical System in Figure 6–74
+Mass 1 (m_1)
+Mass 2 (m_2)
+Spring with Stiffness Constant k
+Gain Value K
+Figure 6–73
+Mass 1 ($m_1$)
+Mass 2 ($m_2$)
+Harmonic Oscillation
+Mechanical Lead Network
+Spring Constant ($k$)
+External Force ($F$)
+Displacement ($x_i$, $x_o$)
+Angular Frequency ($\omega$)
+Space Vehicle
+Output (Y(s))
+Transfer Function Xo(s)/Xi(s)
+Output Response
+Space Vehicle Model
+Zero at s=-1
+Figure 6–78
+Figure 6–79
+Second Attempt
+Figure 6–80
+Figure 6–81
+Feedback Transfer Function
+System Poles
+Figures 6-82
+Figure 6-83
+Signal Processing Diagram
+Circle
+Rectangle
+Curved Line
+Filter Equation
+PD Control
+Equation 6–83(a)
+Equation 6–83(b)
+Angular Measurements
+Time Delay Td
+Static Velocity Error Constant K_v
+Transfer Function G_c(s)
+Figure 6–87
+Figure 6–88
+Geometric Shapes
+Mathematical Diagram
+Pole-Zero Cancellation
+Stability Region
+Desired Closed-Loop Poles
+Static Velocity Error Constant $K_{v}$
+Lead Portion
+Lag Portion
+Trial-and-Error Calculations
+Attitude-Rate Control System
+Aircraft
+Hydraulic Servo
+Rate Gyro
+Compensator Design
+Figure 6–93(b)
+Figure 6–94
+Aircraft Dynamics
+Control Loop
+Compensated Attitude-Rate Control System
+Proportional-Integral-Derivative (PID) Controller
+Compensator $G_{c}(s)$
+Complex Numbers
+Vectors and Trigonometry
+Figure 6–98
+Multiplying Factor
+Circular Root Locus
+Velocity Feedback Gain k
+Velocity Feedback Gain
+Complex Poles
+Equation of a Circle
+Positive Real Axis
+Unity-feedback System
+Mechanical Lag Network
+Series Circuit
+Parallel Circuit
+Total Resistance
+Unit Step Response
+Controller T(s)
+Plant P(s)
+Control System Figure 6–107
+Control System Figure 6–108
+Angular-Positional System Figure 6–110
+Control System Figure 6–112
+Figure 6–112 Control System
+Figure 6–113 Control System
+Figure 6–110 Angular-Positional System
+Figure 6–111 Control System
+Adder Block
+Division Block
+Amplifier Gain K
+Velocity Feedback Gain Kh
+Figure 6–114 Control System
+Figure 6–115 Control System
+Figure 6–116 Control System
+Figure 6–117 Control System
+Figure 6–118 Control System
+Control Systems Analysis and Design
+Gain Constant K
+Transfer Function C(s)
+Nichols
+Frequency-Response Methods
+Sinusoidal Signal Generators
+Frequency
+Sinusoidal Input
+Open-Loop System
+Stable, Linear, Time-Invariant System
+Complex Conjugate
+Angle
+Sinusoidal Waves
+Complex Frequency
+Multiplicities
+Sinusoidal Function
+X Wave
+Y Wave
+Wavelength
+Sinusoidal Transfer Function
+Nyquist Plot
+Nichols Plot
+Integral and Derivative Factors
+First-order Factors
+Quadratic Factors
+Decibel Conversion Line
+Logarithmic Scale
+Magnitude Plot
+Phase Response
+Log Magnitude
+Cutoff Frequency
+First-Order Factor
+Corner Frequency
+Log-Magnitude Curve
+Asymptote
+Exact Curve
+Frequency-Response Curve
+Asymptotic Expression
+Bode Plot
+Frequency Response Curve
+Corner Frequency (ωₙ)
+Quadratic Factor
+Graph Image
+Quadratic Transfer Function
+Corner Frequency (\(\omega_{n}\))
+Resonant Frequency (\(\omega_{r}\))
+Resonant Peak Value (\(M_{r}\))
+Magnitude \(\left|G(j\omega)\right|\)
+Equation (7–7)
+Equation (7–10)
+Equation (7–12)
+Bode Diagrams
+Figure 7–10
+Resonant Peak
+Magnitude G(jω)
+Transfer Function G(jω)
+Magnitude Curve
+Phase-Angle Curve
+Figure 7–11
+Minimum-Phase System
+Fourier Transform Pairs
+Curve G(jω)
+Unlabeled Curve
+Minimum-Phase Transfer Function
+Nonminimum-Phase Transfer Function
+All-Pass Filters
+System G1(jω)
+System G2(jω)
+Transport Lag
+G1(jω)
+G2(jω)
+Filter Design
+Phase-Angle Characteristic
+Figure 7–15
+Magnitude Response
+Phase Angle Response
+System Type
+Figure 7–16
+Figure 7–17
+Log-Magnitude Plot
+Corner Frequency (ω2)
+Frequency Intersection (ω1, ω3)
+Error Detector (E(s))
+Control Systems Analysis and Design by the Frequency-Response Method
+Static Acceleration Error Constants
+Unity Feedback Control System
+-20 dB/decade Line
+20 log K_v Line
+-40 dB/decade Line
+ω = 1 Line
+Intersection Points
+Chapter 7
+Gain Margin
+Phase Margin
+Frequency Vector
+Example 7-5
+MATLAB Program 7-1
+MATLAB Program 7-2
+Gain Amplifier
+MATLAB Program 7–3
+Frequency Response System
+Phase Angle Plot
+G(s) Transfer Function
+MATLAB Program 7-4
+State Space System
+Phase Shift
+Polar Plot
+Phase Plot
+First-Order Factors
+Frequency (ω)
+Radius
+Semicircle
+Resonant Frequency (ωr)
+Resonant Frequency ωr
+Undamped Natural Frequency ωn
+Chapter 7 / Control Systems Analysis and Design
+Second-Order Transfer Function
+Argand Diagram
+Example 7–8
+Example 7–9
+Symbols
+Figure 7–33
+Figure 7–34
+Polar Plots
+Cartesian Coordinate System
+Example 7–10
+Figure 7–36
+MATLAB Program 7-6
+Example 7–11
+Figure 7–38
+Figure 7–39
+Unit Circle
+MATLAB Program 7–9
+Figure 7–41
+Example 7–12
+Example 7–13
+MATLAB Program 7–10
+Nyquist Plot System
+Log-Magnitude-Versus-Phase Plot
+R(s) (Reference Input)
+G(s) (Controller Transfer Function)
+C(s) (Plant or Process)
+H. Nyquist
+Complex Number 1
+Complex Number 2
+s Plane
+F(s) Plane
+Mapping Theorem
+Circle Arrows
+Equation (7–15)
+Nyquist Path
+Closed Contour
+Real Part
+Imaginary Part
+F(s)
+Semicircular Arc
+Frequency Domain
+Fourier Transforms
+Right-Half Plane Zeros
+Contours
+G(s)H(s)
+-1+j0 Point
+Frequency-response Curves
+jω Axis
+jw Plane
+Polar Form
+Argument Principle
+Point (1, 3π/4)
+Point (-1, -π/2)
+Vertical Lines
+Horizontal Lines
+7–50 Contour
+7–51 s-Plane Contour
+Sine Integral
+Figure 7–51
+Figure 7–52
+Example 7–14
+Example 7–15
+T1 and T2
+Small K
+Large K
+Phase Response Plot
+Amplitude Response Plot
+Example 7–16
+Example 7–17
+Compensation Network
+Electrical Engineering
+Figure 7–56
+Figure 7–57
+Example 7–18
+Multiple-Loop System
+Figure 7–58
+Figure 7–59
+Figure 7–60
+Re
+Im
+ω
+Open-Loop Gain
+Critical Point -1+j0
+Signal Flow System
+Additive Gain Block G1(s)
+Multiplicative Gain Block G2(s)
+Feedback Path H2(s) and H1(s)
+Chapter 7 /Control Systems Analysis and Design by the Frequency-Response Method
+Figure 7–60 Control System
+Nyquist Locus
+Figure 7–61 Nyquist Plot
+Inverse Polar Plots
+Unity Feedback System
+Conformal Mapping
+G-Plane
+Open-Loop Frequency-Response
+G(s) Plane
+Step Transient Response
+Real and Imaginary Axes
+Phase and Gain Margins
+G Plane
+Stable System
+Open-loop Gain K
+Phase Crossover Frequency
+Gain Crossover Frequency
+Graph 4
+Log-Magnitude Versus Phase Plots
+Phase Crossover Frequency ω1
+Phase Crossover Frequency ω2
+Conditionally Stable Systems
+Nyquist Diagram
+Output Signal
+Phase-Crossover Frequency
+Gain-Crossover Frequency
+Frequency Response Plots
+Signal Fidelity
+Processing Speed
+MATLAB Program 7–11
+Compensation Techniques
+Resonance Frequency
+Resonant Peak Magnitude
+Standard Second-Order System
+Block Diagram Symbol
+Figure 7–73
+Figure 7–74
+Figure 7–75
+Phase Margin $\gamma$
+Graph with Curved Line
+Straight-Line Approximation
+Equation (7–16)
+Equation (7–17)
+Equation (7–18)
+Equation (7–19)
+Equation (7–20)
+Mathematical Functions
+Complex-Conjugate Closed-Loop Poles
+Resonant Frequency (\omega_{r})
+Resonant Peak (M_{r})
+Damping Ratio (\zeta)
+Bandwidth
+Cutoff Frequency (\omega_{b})
+Closed-loop Frequency Response
+System I
+System II
+Noise Filtering
+Stability Margin
+Resonant Frequency
+MATLAB Program 7-12
+Example 7-23
+Graph 3
+Example 7-22
+Controller C(s)
+Output Signal Y(s)
+Line G
+Arrow O
+Arrow φ
+ω1
+θ
+φ
+Constant-Magnitude Loci
+Constant-Phase-Angle Loci
+Re-Im Plane
+M Circles
+Central Circle
+Concentric Circles
+Curved Lines
+Equation 7–23
+N Circles
+G(jω) Locus
+Constant N Loci
+Alpha ($\\alpha$)
+Open-loop System
+Resonant Peak Magnitude (M_r)
+Nichols Chart
+Resonant Peak Value
+Closed-Loop Frequency Response
+M_r = 1.4
+Sinusoidal-Signal Generators
+Electrical Transducer
+Frequency Range
+Type 0 Systems
+Type 1 Systems
+Type 2 Systems
+Nonminimum-Phase Transfer Functions
+Experimental Determination of Transfer Functions
+System Nonlinearities
+Frequency-Response Tests
+Stochastic Signals
+Correlation Functions
+Transport Lag (T)
+Corner Frequencies
+Transport Lag Correction
+Frequency-Response Approach
+Open-Loop Frequency Response
+Bode Diagram Approach
+M Circle
+Closed-Loop Frequency-Response
+Trigonometric Functions
+Phase-lead Angle
+Equation 7–25
+Block G_c(s)
+Oscillation Pattern
+Figure 7–94
+Equation 7–26
+Attenuation Factor
+Maximum Phase Shift
+Constant K
+Example 7–26
+Figure 7–95
+Phase Lead
+Steady-State Requirements
+Gain-Adjusted Transfer Function
+Resonant Peak (Mr)
+Alpha (α)
+Maximum Phase Lead (φm)
+MATLAB Program 7–13
+Semicircles
+Line Segment
+Lag Compensation Techniques
+Frequency Point
+Attenuation
+Arrow
+Gain Functions
+MATLAB Program 7–14
+Figure 7–104
+Figure 7–105
+Figure 7–106
+Figure 7–107
+Line Graph
+Graph of Gain Characteristics
+Zero and Poles
+Lag–Lead Compensation
+Phi Line
+Equation (7–27)
+Phase-Lag Portion
+G
+GcG
+Curves
+Labels and Annotations
+Frequency Response Data
+Figure 7–111
+Figure 7–112
+Graphical Comparison
+Waveforms
+Feedback Compensation
+Undesirable Poles
+Compensating Element
+Circuit Diagram (a)
+Circuit Diagram (b)
+Compensating Network
+Left-Half s Plane
+Right-Half s Plane
+RC Components
+Figure 7–117
+Manufacturing Tolerances
+Open-Loop Operation
+Example Problem A–7–1
+Sinusoidal Transfer Functions
+MATLAB Program 7-15
+Problem A–7–2
+System U1
+System U2
+MATLAB Program 7-16
+Figure 7-120
+K=1, K=10, K=20
+Gain Parameter
+Cauchy's Theorem
+Residue Theorem
+Complex Analysis
+Contour in the s-plane
+Zero of k-th Order
+Simple Pole
+Analytic Function
+Origin Encirclement
+Right-Half S Plane
+Critical Point (-1+j0)
+Controller (C(s))
+Plant (G(s))
+Polar Representation
+Stable Case
+Unstable Case
+Real Numbers
+Imaginary Numbers
+MATLAB Program 7-17
+Left Semicircle
+Right Semicircle
+MATLAB Program 7–18
+MATLAB Program 7–19
+Polar Locus Plot
+Frequency Region
+Frequency Points
+MATLAB Program 7-19
+MATLAB Program 7-20
+Unity-Feedback Positive-Feedback System
+MATLAB Program 7_21
+Positive-feedback System
+Negative-feedback System
+Space-Vehicle Control System
+Space-vehicle control system
+Controller (K(s+2))
+Plant (1/s^2)
+Gain Crossover Frequency (\(\omega_c\))
+Standard Second-order System
+Bandwidth (\(\omega_b\))
+Figure 7–134
+Figure 7–135
+Unstable Element
+Input Signal (r)
+Output Signal (e)
+Undamped Natural Frequency (ωn)
+Decibels (dB)
+Curve 1
+Curve 2
+Gain Value (K)
+Phase Curve
+Figure 7–136
+PD Controller
+PI Controller
+Sinusoidal Signal
+Summation Block
+MATLAB Program 7–22
+Figure 7–138
+Figure 7–139
+Frequency ω
+Open-loop Transfer Function G(s)
+Polar Diagram
+MATLAB Program 7-23
+Polar Coordinates
+Closed-loop Transfer Function
+Log-magnitude-versus-phase Plot
+M Loci
+Resonant Peaks
+System A
+System B
+MATLAB Program 7-24
+MATLAB Program 7-25
+MATLAB Program 7–26
+Mathematica
+Bode Magnitude Plot
+MATLAB Program 7-27
+MATLAB Program 7-28
+MATLAB Program 7-29
+MATLAB Program 7-30
+Magnitude Response Graph
+Phase Response Graph
+Transfer Function $G(s)$
+Beta ($\\beta$)
+MATLAB Program 7-31
+Figure 7-152
+MATLAB Program 7-32
+Resulting Matrix
+Frequency Scale
+MATLAB Program 7–33
+MATLAB Program 7-33
+Figure 7-154
+MATLAB Program 7-34
+Figure 7-155
+B–7–11
+B–7–12
+B–7–13
+B–7–14
+B–7–15
+B–7–16
+Figure 7–156
+Figure 7–157
+Figure 7–158
+Feedforward Transfer Function G(s)
+State-Space Methods
+Integration Operation Block
+Nyquist Plots
+Fractional Representation Block
+Gain (k) Block
+Butterworth Filter
+Space-Vehicle Attitude-Control System
+Aircraft Control System
+Proportional Gain Constant (Kp)
+Rate Gyro Signal
+Accelerometer Signal
+Modified PID Controllers
+Accelerometer
+Figure 7–167
+Figure 7–168
+Ziegler and Nichols Tuning Rules
+PID Controllers and Modified PID Controllers
+Ziegler-Nichols Tuning Rules
+Multi-Degrees-of-Freedom Control Systems
+Section 8–2
+Section 8–3
+Section 8–4
+Section 8–5
+Single-Degree-of-Freedom Control Systems
+Section 8–1
+Section 8–6
+Ziegler–Nichols Tuning Rules
+S-shaped Response Curve
+Tangent Line
+Proportional Controller (P)
+Proportional-Integral Controller (PI)
+Proportional-Integral-Derivative Controller (PID)
+Derivative Controller (Td)
+Inflection Point
+Delay Time (L)
+Ziegler-Nichols Method
+Kp
+Ti
+Td
+Reference Input (r(t))
+Control Signal (u(t))
+Output (c(t))
+Critical Gain (Kcr)
+Critical Period (Pcr)
+Ziegler–Nichols Tuning Rule
+Critical Gain (K_cr)
+Critical Period (P_cr)
+Proportional-Derivative Controller (Pd)
+Sustained Oscillation
+Frequency of Sustained Oscillation
+Period of Sustained Oscillation
+MATLAB Program 8-1
+Problem A–8–12
+Equation (8–1)
+Equation (8–2)
+MATLAB Program 8-3
+System Stability
+Figure 8-17
+Figure 8-18
+Example 8-2
+MATLAB Program 8–6
+a
+e(s)
+u(s)
+Figure 8–20
+Figure 8–21
+Step Response Graph
+Figure 8–22
+System Parameters (K and a)
+Sorted Table
+Reference Signal
+MATLAB Program 8-7
+Figure 8–23
+Figure 8–24
+Sorting Algorithms
+K Parameter
+a Parameter
+Bubble Sort
+Merge Sort
+Quick Sort
+Python Code Snippet
+PID Control System
+PI-D Control
+Block Diagram of Control System
+I-PD Control
+Control Signal
+PID Control
+PI-PD Control
+First-Order Lag Component
+Derivative Component (Tds)
+Disturbance Input (D(s))
+Noise Input (N(s))
+Controller Transfer Function (G_c(s))
+Plant Transfer Function (G_p(s))
+Reference Input (R(s))
+Closed-Loop Transfer Function (Y(s)/R(s))
+Freedom Control
+Disturbance Input D(s)
+Noise Input N(s)
+Output Y(s)
+Transfer Function Gyr
+Transfer Function Gyd
+Transfer Function Gyn
+Filter Gc1(s)
+Filtered Signal U(s)
+Signal D(s)
+Gain Adjustment Gc2(s)
+Processed Signal B(s)
+Filter Gp(s)
+Two-Degrees-of-Freedom Control System
+Gc1(s)
+Gc2(s)
+Plant Transfer Function Gp(s)
+Closed-Loop Characteristics
+Feedback Characteristics
+Step Disturbance
+System Response Characteristics
+Zero Placement
+Transfer Function Y(s)/R(s)
+Polynomial p(s)
+Controller Gc1(s) and Gc2(s)
+Plant Gp(s)
+Zero Steady-State Error
+Ramp Reference Input
+Acceleration Reference Input
+Unit-Step Reference Input
+Example 8-4
+Step Disturbance Input
+Complex Conjugates
+Gp(s)
+Zero of Gc(s)
+Pole at s=-1
+Design Step 1
+Ramp and Acceleration Reference Inputs
+MATLAB Program 8-8
+2D Plot
+Region for α and β
+Region for γ
+Zero-Placement Method
+Optimization Problem
+Table(k,:)
+Figure 8–35(a)
+Variable a
+Variable b
+Variable c
+Unit-step Response Curve
+Numerical Values
+Figure 8–35
+Figure 8–36(a)
+Figure 8–36(b)
+Y-axis
+X-axis
+Response to Unit Step Disturbance Input
+Equation Coefficients
+Unit-step Reference Input
+Parameters a, b, c
+Figure 8–36
+Unit-Step Disturbance Input
+G_{c1}(s)
+Unit-Acceleration Response
+Output Block (Y(s))
+Gain Block (Gc1(s))
+Delay Block (D(s))
+Gain Block (Gc2(s))
+Controller $G_{c1}(s)$
+Controller $G_{c2}(s)$
+Plant $G_{p}(s)$
+Reference Signal R(s)
+Input Signal D(s)
+Filter Component Gp(s)
+Circle 1
+Circle 2
+Circle 3
+Equation (8-10)
+Equation (8-11)
+Equation (8-9)
+Figure 8–42
+G_{c2}(s)
+Unit-Step Response of Y(s)/D(s)
+Figure 8–43
+Closed-Loop Transfer Function Y(s)/R(s)
+Graph of Unit-Step Response of Y(s)/D(s)
+Graph of Response to Unit-Step Reference Input and Unit-Ramp Reference Input
+Unit-Ramp Reference Input
+Unit-Acceleration Reference Input
+MATLAB Program 8–8
+Op Amps, Resistors, and Capacitors
+Hydraulic or Pneumatic Elements
+Figure 8–44
+Modified PID Controller
+Figure 8-45
+Controller (1/γ)
+Plant (C(s))
+Output Signal (Y)
+Resistors (R1, R2, R3, R4)
+Capacitors (C1, C2, C3)
+Disturbance Input
+MATLAB Program 8-9
+Emacs Editor
+Emacs
+Figure 8-48
+Figure 8-49
+Graph of Step Disturbance Input
+Graph of Step Reference Input
+Error Signal (e(s))
+Control Output (u(s))
+Gain Constant (K)
+Zero at s=-b
+Poles at -1 + j0.5 and -1 - j0.5
+Compensator Gc(s)
+Figure 8–51
+Figure 8–52
+Figure 8–53
+Peak Amplitude
+MATLAB Program 8-10
+MATLAB Program 8-11
+MATLAB Program 8-12
+MATLAB Program 8-13
+Time Scale
+Amplitude Scale
+Semi-Circle at Origin
+Semi-Circle at (1, 0)
+Nyquist Path in s1 Plane
+MATLAB Program 8–14
+Arrow on First Semi-Circle
+Arrow on Second Semi-Circle
+Equation x^2 = 4
+Equation y^2 = 1/4
+I-PD-Controlled System
+PID-Controlled System
+MATLAB Script
+Numerator and Denominator Polynomials
+Input Filter
+Command Compensation
+G_d(s)
+Internal Feedback Loop
+Figure 8–63
+MATLAB Program 8-15
+Figure 8–64
+MATLAB Program 8-16
+Python
+Control Systems Module
+Figure 8–65
+G_{p}(s)
+Unit-Step Response Code Snippet
+Table of Numbers
+Two-degrees-of-freedom control system
+Root-locus approach
+Closed-loop transfer function
+Characteristic equation
+Magnitude condition
+Plant or Process
+Dominant Closed-loop Poles
+Unit Step Disturbance
+Omit-Step Reference Input
+Unit-Step Disturbance
+Reference Inputs
+G_c(s)
+G_c1(s)
+G_c2(s)
+Steady-State Errors
+Figure 8–70 Electronic PID Controller
+Figure 8–71 System
+Figure 8–72 PID-Controlled System
+Figure 8–73 System
+Example 8–4 Computational Method
+Example 8–1 System Design
+Figure 8–69 Block Diagram
+Transfer Functions $G_{c1}(s)$ and $G_{c2}(s)$
+Electronic PID Controller
+R1, C1, R2, R3, R4, C1, C2
+Example 8–4
+Disturbances $D(s)$
+Parameters $K$, $a$, and $b$
+I-PD Controller
+Feedforward Control
+Figure 8–74 Control System
+Figure 8–75 Control System
+Figure 8–76(a)
+Figure 8–76(b)
+Multiplier Blocks
+Adder Blocks
+Integrator Blocks
+Filtered Signal (G1(s)R(s))
+Disturbance at Output (D2(s))
+Filter G2(s)
+Final Output (G2(s)G1(s)R(s))
+Closed-loop Transfer Function $C(s)/R(s)$
+Closed-loop Transfer Function $C(s)/D(s)$
+Adjustable Gain K
+Two-Degrees-of-Freedom System
+Three-Degrees-of-Freedom System
+G_{c1}
+G_{c2}
+G_{c3}
+G_{p}
+G_{1}
+G_{2}
+Gc2
+Three-degrees-of-freedom system
+Figure 8–79
+Figure 8–80
+Gain Block (Gc(s))
+Transfer Function Block (1.2(0.3s + 1)(s + 1))
+B(s)
+Discrete-time signal processing system
+Figure 8–81
+Figure 8–82
+C1(s)
+C2(s)
+State-space analysis
+Controllability
+Observability
+Canonical Forms
+Two-degrees-of-freedom Control System
+State-space Analysis
+Control Systems Analysis
+System Models
+Vector-Matrix Differential Equation
+Controllable Canonical Form
+Observable Canonical Form
+Diagonal Canonical Form
+Pole-Placement Approach
+Jordan Canonical Form
+Transfer-Function System
+Transformation x = Pz
+Matrix P
+Diagonal Matrix
+Example 9–2
+Transformation Matrix P
+Coefficient Matrix
+Scalar State Equations
+Linear Transformation
+Characteristic Polynomials
+System Model Transformation
+MATLAB Program 9-2
+Example 9-3
+Transfer Function Calculation
+Example 9-4
+MATLAB Program 9-3
+Input System
+Output System
+Homogeneous State Equation
+Scalar Differential Equation
+Matrix Exponential
+Power Series
+State-Space Analysis
+State-Transition Matrix
+A
+B
+Equation (9–36)
+Equation (9–37)
+Equation (9–38)
+Distinct Eigenvalues
+Multiplicity in Eigenvalues
+Inverse State-Transition Matrix
+Nonhomogeneous State Equations
+Nonhomogeneous State Equation
+Transition Matrix (Phi(t))
+Cayley–Hamilton Theorem
+Sylvesters Interpolation Method
+Vector-Matrix Analysis
+Minimal Polynomial
+Adjugate
+Polynomial d(λ)
+Diagonalizing Matrix P
+Transformation Matrix S
+Inverse of Matrix S
+Matrix Exponential e^{At}
+Eigenvalue \lambda
+Sylvester's Interpolation Method
+Matrix Exponentiation
+Sylvesters Interpolation Formula
+Determinant Equation
+Multiple Roots
+Sylvester's Interpolation Formula
+Linear Independence
+Linear Dependence
+Matrix Singularity
+Matrix Nonsingularity
+Alpha_0(t)
+Alpha_1(t)
+Matrix Exponential e^(At)
+Vectors x1, x2, x3
+Vectors y1, y2, y3
+Matrix Singular
+Matrix Nonsingular
+Continuous-Time System
+State Controllability
+Stabilizability
+Equation (9–51)
+Controllability Matrix
+Control Vector
+Eigenvectors
+Rank
+Matrix Equation
+Jordan Block
+Equation (9–59)
+Equation (9–56)
+Jordan Blocks
+Example 9–12
+Example 9–13
+Output Controllability
+Uncontrollable System
+Rank of Matrix
+Output Vector
+Unconstrained Control Vector
+State Feedback Control
+Complete Observability
+Observability Matrix
+System Controllability
+Rank Condition
+Example 9–14
+Example 9–15
+Control Function u
+Control Function
+Matrix
+Example 9–16
+System Observability
+Matrix CP
+State Variable z_i(0)
+Output Equation y(t)
+Nonsingular Matrix P
+Equation (9–66)
+Equation (9–67)
+System S1
+System S2
+Conjugate Transpose of A
+Conjugate Transpose of B
+Conjugate Transpose of C
+Detectability
+Algorithm Flowchart
+Input/Output Blocks
+Addition/Subtraction Operations
+Multiplication/Division Operations
+Function Calls and Assignments
+Control Flow
+Equations (9–69) and (9–70)
+Chapter 9 /Control Systems Analysis in State Space A–9–2
+Digital Signal Processing
+Equation (9-83)
+Equation (9-84)
+Equation (9-85)
+Equation (9-86)
+Equation (9-87)
+Equation (9-88)
+Gain Blocks
+Addition Blocks
+Equations (9–84) and (9–85)
+Equation (9–86)
+Equations (9–89) and (9–90)
+MATLAB Program 9-4
+Matrix Operations
+Inverse Matrix
+Ramp Functions
+Step Input
+State Transition Matrix
+Matrix Inversion
+Initial Conditions
+Cosine Function
+Sine Function
+Eigenvalues of Matrix A
+Polynomial Identity
+Adjugate Matrix
+Diagonal Matrix D
+Jordan Canonical Form J
+Triangular Matrix
+Polynomial p_k(λ)
+Lagrange Polynomial
+Interpolation Formula
+Equation (9–102)
+Equation (9–103)
+Function f(A)
+Equation (9-104)
+Multiple Eigenvalues
+Polynomial φ(λ)
+Roots λ1, λ2, λ3
+Equation (9–112)
+Alpha Functions
+Composite Matrix P
+Rank m
+Matrix Q
+Care Rows
+System A–9–16
+Equation 9–120
+Equation 9–121
+Equation 9–122
+Equation 9–123
+Equation (9–120)
+Equation (9–121)
+Equation (9–122)
+Equation (9–123)
+Matrix W(t)
+Polynomial Degree m
+Equation 9-48
+Equation 9-50
+Equation 9-124
+Equation 9-125
+Equation 9-126
+Exponential of a Matrix
+Matrix Q(t)
+Vector x(0)
+Vector y(t)
+Transfer Function Y(s)/U(s)
+System B-9-12
+System B-9-16
+System B-9-13
+System B-9-17
+System B-9-14
+Pole-Placement Method
+Observers
+Quadratic Optimal Regulator Systems
+Single-Input, Single-Output Systems
+State Feedback Gain Matrix
+Pole-Placement Scheme
+Regulator System
+State Feedback
+Box D
+Box -K
+Box S
+Box C
+Signal x
+Closed-loop control system
+Matrix K
+Controllability Matrix M
+Transformation Matrix T
+Matrix M
+Matrix W
+State Feedback Gain Matrix K
+Ackermanns Formula
+Desired Eigenvalues
+System State Equation
+Pole-Placement Design
+Equation (10–16)
+Equation (10–17)
+Equation (10–18)
+Gain Matrix K
+Figure 10–2
+Section 10–7
+Section 10–8
+Matrix T
+Polynomial Coefficients a1, a2, a3
+Polynomial Coefficients α1, α2, α3
+Equation (10–13)
+Ackermann's Formula
+Robust Pole Placement
+Feedback Gain Matrix K
+MATLAB Command: acker
+MATLAB Command: place
+Place Command
+Acker Command
+Matrix J
+Example 10-1
+Example 10-2
+MATLAB Program 10-3
+Initial Condition x(0)
+Electrical Circuit Response
+State Variable x1
+State Variable x2
+State Variable x3
+Type 1 Servo System
+Figure 10-3
+Figure 10-4
+Constant Matrix A
+Constant Matrix B
+Constant Matrix C
+Pole-Placement Technique
+Example 10–4
+Plant Transfer Function
+MATLAB Program 10-4
+Control Signal u
+MATLAB Program 10-5
+State-space Matrices
+Figure 10-6
+Integrator Output
+Reference Input Signal
+Integral Gain Constant
+State Observer
+Inverted-Pendulum Control System
+Figure 10-7
+Figure 10-8
+Pendulum
+Cart
+Pivot
+Arm
+Angle θ
+Equation 10-43
+Equation 10-44
+Control Input (u)
+Array A
+Program 10–6
+Cart Position Step Response
+Integral Gain Constant kI
+Step-Response Curves
+Control Matrix
+Equation 10-53
+Equation 10-54
+Figure 10-10
+MATLAB Program 10-7
+Graph 5
+Equation (10–33)
+Function x1
+Function x2
+Function x3
+Function x4
+Function x5
+Full-Order State Observer
+Reduced-Order State Observer
+Minimum-Order State Observer
+Observer Gain Matrix
+Observability Condition
+Estimation Error
+Signal Processing Flowchart
+Input Stage
+Output Stage
+Integrator (I)
+Differentiator (D)
+Multiplier (M)
+C Block
+Observer Error Equation
+Observer Gain Matrix Ke
+Pole-Placement Problem
+Dual System
+State Observer Gain Matrix
+State Observability
+Observer Error Dynamics
+Modeling Errors
+Transformation Approach
+Direct-Substitution Approach
+Feedback Signal
+Plant Model
+Observer Poles
+Controller Poles
+Disturbances and Noises
+Example 10–6
+System Configuration
+Matrix N*
+Equation (10-61)
+Equation (10-59)
+Equation (10-65)
+Equation (10-57)
+Pole Placement Method
+Observer
+Feedback Gain Matrix
+Mathematical Operations
+Functions
+Constants
+Variables
+Observer-Based Controller
+Observer-Controller Transfer Function
+Observer-Controller Matrix
+State-Feedback Gain Matrix
+Chapter 10
+Equation 10–74
+Figure 10–14(a)
+Figure 10–14(b)
+MATLAB Program 10–8
+Observed-State Feedback System
+Linear Algebra
+Figure 10–14
+Observer-Controller
+Kalman Gain
+Observer Gain
+Observed-State Feedback Control System
+Input Matrix B
+Kalman Gain K
+Observer Gain Ke
+MATLAB Program 10-9
+Error State Variable e1
+Error State Variable e2
+Minimum-Order Observer
+Figure 10-15
+Transformation
+Full-Order Observer
+Minimum-Order Observer Design
+Equation (10–81)
+Equation (10–83)
+Equation (10–84)
+Equation (10–85)
+Equation (10–86)
+Matrix Φ
+Matrix Σ
+State of the System (x)
+Gain Vector (K_e)
+Equation 10-86
+Equation 10-87
+Equation 10-89
+Minimum-order observer
+C
+Observed-state feedback control system
+Transformation equation
+Observer error equation
+MATLAB Program 10–10
+Control Systems Design in State Space
+Equation (10–95)
+Equation (10–97)
+MATLAB Program 10-10
+Vector K
+Vector L
+Equation 10-99
+Equation 10-100
+Equation 10–100
+Figure 10–18
+Example 10–8
+Minimum-Order Observer-Based Controller
+Equation (10–89)
+Equation (10–90)
+Equation (10–103)
+Equation (10–104)
+Equation (10–101)
+Control Architecture
+Mathematical Representation
+MATLAB Program 10–11
+Output Signal (y)
+State Feedback Gain Matrix (K)
+Observer Gain Matrix (Ke)
+Transfer Function of the Observer Controller
+MATLAB Program 10-12
+System 1
+Observer Controller
+Block Diagram of System 1
+MATLAB Program 10-13
+MATLAB Program 10-14
+System 2
+MATLAB Program 10-15
+Figure 10-21
+System 2 - Open Loop
+Figure 10–22
+Figure 10–23
+Figure 10–24
+Gridlines
+Data Points
+Sensor Noise
+Control Systems with Observers
+Pole Placement with Observer
+Reference Signal (r)
+Control Signal (u)
+State Vector (x)
+Observer-Based Control System
+Configuration 1
+MATLAB Program 10-16
+MATLAB Program 10-17
+Overall System
+Figure 10-28
+Figure 10-29
+Figure 10-30
+Diagram
+Box labeled 'r'
+Circle with 'X'
+Rectangle with mathematical expression
+Configuration 2
+Gain 'N'
+Graph in Figure 10–32
+Closed-loop poles
+Observer poles
+Pole-placement approach
+State-Space Design Method
+Quadratic Optimal Regulator
+Optimal Regulator System
+Figure 10–35
+Matrix R
+Equation 10–113
+Equation 10–114
+Equation 10–115
+Quadratic Optimal Control Problem
+Performance Index J
+Reduced-Matrix Riccati Equation
+Performance Index
+Equation 10–118
+Equation 10–117
+Example 10–9
+Figure 10–36
+Optimal Control
+Equation (10–117)
+Riccati Equation
+State-Feedback Control
+Example 10–10
+System Defined by Equation
+MATLAB Program 10-18
+Quadratic Optimal Regulator System
+Quadratic Performance Index
+MATLAB Program 10-19
+MATLAB Program 10-20
+MATLAB Program 10-21
+Quadratic Optimal Regulators
+Figure 10-38
+Figure 10-39
+MATLAB Program 10-22
+Quadratic Optimal Control System
+State-Feedback Gain Matrix K
+MATLAB Program 10-23
+Optimal Regulator Systems
+Frequency-Response Characteristics
+Structured Uncertainty
+Unstructured Uncertainty
+Optimal Regulator Problem
+Uncertain Elements in Plant Dynamics
+$H_{\infty}$ Norm
+Small Gain Theorem
+Flexible-Arm System
+Nonlinear Plant
+Small-Gain Theorem
+Multiplicative Uncertainty
+Additive Uncertainty
+Robust Stability
+Robust Performance
+True Plant Dynamics (\(\widetilde{G}\))
+Model Plant Dynamics (G)
+Transfer Function (T)
+K (Controller)
+Wm (Weighting Function)
+Figure 10–43
+Figure 10–44
+Sensitivity Function (S)
+Complementary Sensitivity Function (T)
+Unstructured Multiplicative Uncertainty
+Mixed-Sensitivity Problem
+Generalized Plant Diagram
+Unity Feedback Loop
+Adder/Subtractor
+Saturation Block
+Delay Block
+Multiplier Block
+Generalized Plant P(s)
+Transfer Function K(s)
+Controlled Variable z(s)
+Exogenous Disturbance w(s)
+Output Variable y(s)
+Output Signal u(s)
+Transfer Function Φ(s)
+Z-Transforms
+Example 10–15
+Example 10–14
+P Matrix
+Generalized Plant
+Electrical Signal Processing System
+Matrix W_s
+Input z_1
+Input z_2
+Input u
+Output y
+Output w
+H Infinity Control Problem
+Controller K
+Riccati Equations
+Linear Matrix Inequality Approach
+Mu Analysis and Mu Synthesis
+Weighting Function
+Transformation Matrix
+Cayley-Hamilton Theorem
+State Controllable System
+Equation (10–140)
+Equation (10–141)
+Equation (10–142)
+Equation (10–143)
+Problem A–10–2
+Equation (10–144)
+Equation (10–145)
+Matrix T Inverse
+Matrices
+Equation (10–150)
+Equation (10–149)
+Equation (10–148)
+Observable System
+Equation 10-153
+Equation 10-154
+Problem A–10–7
+Minimum-order Observer
+Equation 10-167
+Equation 10-169
+Figure 10-49
+Pole-Placement-With-Observer Approach
+Regulator
+Spring k
+Force u
+Mass M1
+Mass M2
+Spring K
+Force U
+Matrix Ke
+MATLAB Program 10–26
+State Feedback Gain Matrix \mathbf{K}
+Observer Gain Matrix \mathbf{K}_{e}
+Matrix \mathbf{A}
+Matrix \mathbf{B}
+Graph 1: x1 Response
+Graph 2: x2 Response
+Graph 3: x3 Response
+Graph 4: x4 Response
+Graph 5: e1 Response
+Graph 6: e2 Response
+Figure 10–51
+MATLAB Program 10-28
+MATLAB Program 10-29
+Ackermann Function
+Simulation Parameters
+Time Step
+Simulation Duration
+MATLAB Program 10-32
+MATLAB Program 10-33
+MATLAB Program 10–33
+Matrix Differential Equation
+Hermitian Matrix
+Stable Matrix
+Positive-Definite Matrix
+Hermitian Matrix P
+Stable Matrix A
+Positive-Definite Matrix Q
+Linear Control Law
+Equation (10-173)
+Equation (10-174)
+Equation (10-115)
+Figure 10-9
+Control Law
+Equation (10-177)
+Error Equation
+MATLAB Program 10-35
+Inverted-Pendulum-on-the-Cart System
+Cart Position x3
+Unstructured Additive Uncertainty
+True Plant Dynamics
+Model of Plant Dynamics
+Flowchart Collection
+Chart (a)
+Chart (b)
+Chart (c)
+Chart (d)
+Chart (e)
+Chart (f)
+Figure 10–57
+Transfer Function T_a
+Unstructured Additive Uncertainty Δ_a
+Scalar Transfer Function W_a(jω)
+Phi Matrix Φ(s)
+State-Feedback Gain Matrix (K)
+System B–10–2
+System B–10–3
+System B–10–5
+Problem B–10–6
+Figure 10–58
+Additive White Gaussian Noise (AWGN) Removal
+Integration
+Double Integrator System
+Horizontal Equation
+Vertical Equation
+Gravity
+Dynamic Mechanical System
+Laplace Domain Signal
+Control Action U(s)
+Figure 10–61
+System Defined by A
+Figure 10–62
+Additive Node
+Denominator (s+1)
+Numerator (2s+1)
+Output Signal (u)
+Performance Index (J)
+Complex Variable
+Complex Function
+Cauchy–Riemann Conditions
+Laplace Transform Tables
+Complex Quantity
+Linear Control Systems Analysis
+Ordinary Points
+Singular Points
+Laplace Transformation
+Derivative
+Inverse Laplace Transformation
+Table A–1
+Table A–2
+Unit Impulse δ(t)
+Unit Step 1(t)
+Exponential Decay Functions
+Rational Polynomials
+Initial Value Theorem
+Final Value Theorem
+Pulse Function
+Impulse Function
+Mathematical Formulas
+Distinct Poles
+Residue
+Example B-1
+Example B-2
+Example B-3
+Equation (B–3)
+Residue Command
+Vector-Matrix Algebra
+Partial Fraction Expansion
+Determinant
+Adjoint Matrix
+Square Matrix
+Minor
+Cofactor
+Inverse of Matrix A
+Determinant of Matrix A
+Derivative of Matrix A
+Integral of Matrix A
+Anderson, B. D. O.
+J. B. Moore
+Athans, M.
+P. L. Falb
+McGraw-Hill Book Company
+Barnet, S.
+IEEE
+Bayliss, L. E.
+English Universities Press Limited
+Bellman, R.
+Bode, H. W.
+Van Nostrand Reinhold
+Brogan, W. L.
+Butman, S.
+R. Sivan (Sussman)
+Campbell, D. P.
+John Wiley & Sons, Inc.
+Cannon, R.
+Chang, P. M.
+S. Jayasuriya
+ASME
+Cheng, D. K.
+Addison-Wesley Publishing Company, Inc.
+Churchill, R. V.
+Coddington, E. A.
+N. Levinson
+Matrix Differentiation
+Differentiable Matrix
+Graphic Design
+Letter 'R'
+Diamond Shape
+Color Scheme
+References
+IEEE Trans. Military Electronics
+ASME Trans
+Chelsea Publishing Company, Inc.
+Macmillan, Inc.
+Butterworths & Company Limited
+C–4 Cheng, D. K.
+Churchill, R.V.
+Coddington, E.A.
+Craig, J. J.
+Cunningham, W J.
+Dorf, R. C.
+Bishop, R. H.
+Enns, M.
+Greenwood III, J. R.
+Matheson, J. E.
+Thompson, F. T.
+Evans, W. R.
+Franklin, G. F.
+Powell, J. D.
+Emami-Naeini, A.
+Friedland, B.
+Fu, K. S.
+Gonzalez, R. C.
+Lee, C. S. G.
+Gantmacher, F. R.
+Gardner, M. F
+Barnes, J. L.
+Gibson, J. E.
+Gilbert, E. G.
+Graham, D.
+Lathrop, R. C.
+Hahn, W.
+Halmos, P. R.
+Higdon, D. T.
+Cannon, R. H., Jr.
+Irwin, J. D.
+Jayasuriya, S.
+Kailath, T.
+Kalman, R. E.
+Bertram, J. E.
+R. E. Kalman
+J. E. Bertram
+Y. C. Ho
+K. S. Narendra
+J. Kautsky
+N. Nichols
+E. Kreindler
+P. E. Sarachick
+B. C. Kuo
+J. P. LaSalle
+S. Lefschetz
+W. S. Levin
+D. G. Luenberger
+A. I. Lure
+E. N. Rozenvasser
+MathWorks, Inc.
+W. G. Melbourne
+C. G. Sauer, Jr.
+N. Minorsky
+R. V. Monopoli
+B. Noble
+J. Daniel
+K. Ogata
+C. L. Phillips
+R. D. Harbor
+L. S. Pontryagin
+V. G. Boltyanskii
+R. V. Gamkrelidze
+E. F. Mishchenko
+Z. V. Rekasius
+G. Rowell
+D. Wormley
+Proc. Natl. Acad. Sci., USA
+ASME J. Basic Engineering
+Wiley-Interscience Publishers, Inc.
+Intern. J. Control
+IEEE Trans. Automatic Control
+Academic Press, Inc.
+CRC Press
+IEEE Trans. Military Electr.
+NASA
+IRE Trans. Automatic Control
+ARS J.
+AIAA J.
+University of Minnesota
+Oklahoma State University
+IEEE Trans.Automatic Control
+Chenko
+Z.V. Rekasius
+W. C. Schultz
+V. C. Rideout
+R.J. Smith
+P. F. Staats
+G. Strang
+J. G. Truxal
+E. Umez-Eronini
+M. E. Valkenburg
+H. F. Van Landingham
+W. A. Blackwell
+J. G. Webster
+R. B. Wilcox
+J. C. Willems
+S. K. Mitter
+C. K. Wojcik
+W. M. Wonham
+K. Zhou
+J. C. Doyle
+K. Glover
+J. G. Ziegler
+N. B. Nichols
+New York
+Upper Saddle River, NJ
+Pacific Grove, CA
+Absolute stability
+Ackermanns formula
+Actuating error
+Adjoint matrix
+Air heating system
+Aircraft elevator control system
+Analytic function
+Angle condition
+Automatic controller
+Automobile suspension system
+Basic control actions
+Block diagram
+Bode diagram
+Branch point
+Business system
+IRE Trans.Automatic Control
+Brooks 'Cole Publishing Company
+Conduction Heat Transfer
+Convection Heat Transfer
+Differentiation
+Eigenvalue
+Index
+Break Frequency
+Bridged-T Networks
+Cancellation of Poles and Zeros
+Cascaded System
+Cauchys Theorem
+Characteristic Roots
+Classification of Control Systems
+Complete Output Controllability
+Computational Optimization Approach to Design PID Controller
+Conditional Stability
+Conical Water Tank System
+Constant Phase-Angle Loci
+Constant $\omega_{n}$ Loci
+Constant $\zeta$ Lines
+Constant $\zeta$ Loci
+Control Actions
+Convolution
+Cutoff Rate
+Dead Space
+Decade
+Decibel
+Delay Time
+Derivative Gain
+Diagonalization of $n\times n$ Matrix
+Duality
+Lagranges interpolation formula
+Laminar-flow resistance
+Laplace transform
+Lead compensator
+Logarithmic Plot
+MATLAB Commands
+Matrix Riccati Equation
+Mechanical Lag-Lead System
+Nyquist, H.
+Newtons Second Law
+Motorcycle Suspension System
+Watts Speed Governor
+State Observation
+Static Acceleration Error Constant
+Static Position Error Constant
+System Types
+System Response to Initial Condition
+Temperature Control Systems
+Two-Position Control Action
+Underlapped Spool Valve
+Unit Acceleration Input
+Valve Coefficient
+Vectors
+Velocity Error

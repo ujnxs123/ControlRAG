@@ -51,8 +51,8 @@ ControlRAG/
 ├── server/
 │   ├── .env.example                  # 脱敏模板，与根目录模板相同
 │   ├── .env                          # 本地运行配置，不提交
-│   ├── inputs/                       # 本地知识库资料，不提交
-│   └── rag_storage/                  # 本地索引与缓存，不提交
+│   ├── inputs/                       # 已构建知识库的课程资料
+│   └── rag_storage/                  # 预构建索引、知识图谱与缓存
 ├── docs/                             # 技术文档
 ├── setup.py                          # 安装配置与命令行入口
 └── LICENSE                           # LightRAG 上游 MIT 许可证
@@ -164,7 +164,11 @@ Invoke-RestMethod -Method Post -Uri http://localhost:9621/documents/scan
 
 也可以在启动后端时增加 `--auto-scan-at-startup`，自动扫描输入目录。资料入库涉及文本分块、实体关系抽取和向量化，首次导入需要等待后台处理完成，再进行知识库问答。
 
-课程资料决定了问答覆盖范围。若仓库未附带本地资料或索引，需要自行导入有权使用的自动控制课程资料。
+仓库附带已构建的自动控制课程知识库：`server/inputs/Markdown_nofigure.md` 是入库资料，`server/rag_storage/` 包含文档、文本分块、知识图谱、向量索引及处理缓存。目前索引包含 727 条文本块向量、3631 条实体向量和 4473 条关系向量，向量维度为 1536。
+
+复用现成索引时，从 `server/` 启动服务，并将 Embedding 配置为原知识库使用的 `text-embedding-3-small`、1536 维；仅维度相同不能保证不同向量模型兼容。填好自己的模型服务地址和密钥后，可以直接检索，无需重复导入。对话模型和向量模型通过服务接口调用，预构建向量索引不是模型权重。
+
+若要更换向量模型或重新构建知识库，请将 `WORKING_DIR` 指向新的目录后导入资料，保留原索引作为备份。
 
 ## 配置外部 SD WebUI
 
@@ -261,4 +265,4 @@ bun run build --emptyOutDir
 
 - 本项目基于 [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)，保留其代码及许可证；上游 MIT 许可见 [`LICENSE`](./LICENSE)。
 - 图像生成依赖外部 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)，遵循其自身许可证与模型使用条款。本仓库仅提供 API 接入代码和配置说明。
-- GitHub 发布内容以项目源码、必要资源和配置模板为主；不包含 SD 整合包、模型权重、压缩包、虚拟环境和运行日志。真实 `.env`、密钥及未获授权的课程资料不应提交；本地索引是否发布取决于其资料来源和发布需求。
+- GitHub 发布内容包含项目源码、配置模板，以及已构建的课程知识库和索引。真实 `.env`、密钥、SD 程序整合包、压缩包、虚拟环境和运行日志不提交。外部模型的发布方式以仓库中的实际模型说明为准。

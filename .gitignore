@@ -102,3 +102,13 @@ streamlit copy.py
 
 # Upstream automation is not configured for this derived project.
 .github/workflows/
+
+# Publish the prepared course knowledge base and retrieval indexes.
+# Other runtime folders and all real .env files remain ignored.
+!/server/inputs/
+!/server/inputs/*.md
+!/server/rag_storage/
+!/server/rag_storage/*.json
+!/server/rag_storage/*.graphml
+!/server/rag_storage/*.txt
+!/server/rag_storage/*.py
